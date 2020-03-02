@@ -1,0 +1,36 @@
+html{
+	height: 100%;
+}
+
+body{
+	background-color: rgb(225, 225, 225);
+	min-height: 100%;
+}
+
+#entire-page{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+main{
+	padding: 8px;
+}
+
+/*	main       */      
+.empty{
+	display: none;
+}
+
+.month {
+	padding: 25px 25px;
+	width: 100%;
+	background: #1abc9c;
+	text-align: center;
+  }
+
+.month li {
+color: white;
+font-size: 20px;
+text-transform: uppercase;
+letter-spacing: 3px;
+}

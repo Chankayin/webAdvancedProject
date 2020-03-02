@@ -1,0 +1,15 @@
+<div class="content">
+    <h1>Create an event</h1>
+</div>
+<div>
+    <form action="/event/createEvent" method="POST" class="box">
+    <input type="text" name="eventTitle" placeholder="title" required/>
+    <br>
+    <input type="datetime-local" id="selectedTime" name="selectedTime">
+    <br>
+    <input type="text" name="eventText" placeholder="text" required/>
+    <br>
+<!---    <input type="hidden" name="_csrf" value="{{csrfToken}}"/> --->
+    <input type="submit" value="create"/>
+</form>
+</div>
